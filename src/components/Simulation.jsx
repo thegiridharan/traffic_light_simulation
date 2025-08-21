@@ -44,7 +44,7 @@ export default function Simulation() {
                     <div className="h-[2px] w-[150px] bg-black" />
                 </div>
                 <div className="flex items-center justify-center w-[200px]">
-                    {activeLight === "red" && (<p className="font-semibold text-[26px]">Wait</p>)}
+                    {activeLight === "red" && (<p className="font-semibold text-[26px]">Stop</p>)}
                     {activeLight === "yellow" && (<p className="font-semibold text-[26px]">Ready to Go</p>)}
                     {activeLight === "green" && (<p className="font-semibold text-[26px]">Go</p>)}
                 </div>
